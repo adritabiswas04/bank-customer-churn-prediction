@@ -1,0 +1,19 @@
+Completed Bank Churn Submission
+
+Rows: 10,000
+Churn rate: 20.37%
+Best model: XGBoost
+ROC-AUC: 0.8691
+Chosen threshold: 0.2523
+Top features:
+                     Feature  Importance
+EngagementProductInteraction    0.174785
+               NumOfProducts    0.153603
+                         Age    0.151102
+              IsActiveMember    0.109187
+           Geography_Germany    0.093628
+                 Gender_Male    0.051538
+               Gender_Female    0.046297
+                     Balance    0.042587
+          BalanceSalaryRatio    0.032994
+            Geography_France    0.025224

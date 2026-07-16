@@ -1,0 +1,54 @@
+{
+  "best_model": "XGBoost",
+  "features": [
+    "CreditScore",
+    "Geography",
+    "Gender",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "BalanceSalaryRatio",
+    "ProductDensity",
+    "EngagementProductInteraction",
+    "AgeTenureInteraction"
+  ],
+  "numeric_features": [
+    "CreditScore",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "BalanceSalaryRatio",
+    "ProductDensity",
+    "EngagementProductInteraction",
+    "AgeTenureInteraction"
+  ],
+  "categorical_features": [
+    "Geography",
+    "Gender"
+  ],
+  "drop_columns": [
+    "CustomerId",
+    "Surname",
+    "Year"
+  ],
+  "target": "Exited",
+  "threshold": 0.2523198127746582,
+  "risk_bands": {
+    "Low": "<30%",
+    "Medium": "30%-60%",
+    "High": ">60%"
+  },
+  "churn_rate": 0.2037,
+  "test_size": 0.2,
+  "random_state": 42,
+  "cv_roc_auc_mean": 0.8678910979072132,
+  "cv_roc_auc_std": 0.007392451020433471
+}
