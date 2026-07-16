@@ -10,9 +10,9 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Bank Customer Churn Risk Scoring", page_icon="🏦", layout="wide")
 
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / "models" / "bank_churn_model.joblib"
+MODEL_PATH = BASE_DIR / "bank_churn_model.joblib"
 META_PATH = BASE_DIR / "models" / "model_metadata.json"
-DATA_PATH = BASE_DIR / "data" / "European_Bank.csv"
+DATA_PATH = BASE_DIR / "European_Bank.csv"
 IMPORTANCE_PATH = BASE_DIR / "feature_importance.csv"
 RISK_PATH = BASE_DIR / "risk_scored_customers.csv"
 
